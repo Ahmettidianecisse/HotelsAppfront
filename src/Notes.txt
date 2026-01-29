@@ -1,0 +1,54 @@
+import React from "react";
+import { Bell, Search, Plus } from "lucide-react";
+import { Link } from "react-router-dom";
+
+const hotels = [
+  {
+    name: "Hôtel Terrou-Bi",
+    city: "Boulevard Martin Luther King, Dakar",
+    price: "25 000 FCFA / nuit",
+    image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+  },
+  {
+    name: "King Fahd Palace",
+    city: "Rte des Almadies, Dakar",
+    price: "28 000 FCFA / nuit",
+    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+  },
+  {
+    name: "Radisson Blu Hotel",
+    city: "Rte de la Corniche Ouest, Dakar",
+    price: "22 000 FCFA / nuit",
+    image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+  },
+  {
+    name: "Pullman Dakar Teranga",
+    city: "Place de l’Indépendance, Dakar",
+    price: "30 000 FCFA / nuit",
+    image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+  },
+  {
+    name: "Hôtel Lac Rose",
+    city: "Lac Rose, Dakar",
+    price: "25 000 FCFA / nuit",
+    image: "https://images.unsplash.com/photo-1501117716987-c8e1ecb210f3",
+  },
+  {
+    name: "Hôtel Saly",
+    city: "Mbour, Sénégal",
+    price: "20 000 FCFA / nuit",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+  },
+  {
+    name: "Palm Beach Resort & Spa",
+    city: "Saly",
+    price: "32 000 FCFA / nuit",
+    image: "https://images.unsplash.com/photo-1540541338287-41700207dee6",
+  },
+  {
+    name: "Pullman Dakar Teranga",
+    city: "Place de l’Indépendance, Dakar",
+    price: "30 000 FCFA / nuit",
+    image: "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a",
+  },
+];
