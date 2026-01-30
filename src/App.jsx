@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Login from "./pages/Login.jsx";
-import Register from "./pages/Register.jsx";
-import Dashboard from "./pages/Dashboard.jsx";
-import HotelsList from "./pages/HotelsList.jsx";
+import Login from "./Pages/Login.jsx";
+import Register from "./Pages/Register.jsx";
+import Dashboard from "./Pages/Dashboard.jsx";
+import HotelsList from "./Pages/HotelsList.jsx";
 import ProtectedRoute from "./Components/ProtectedRoute.jsx";
 
 export default function App() {
